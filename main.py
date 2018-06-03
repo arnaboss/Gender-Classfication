@@ -9,4 +9,6 @@ classifier = tree.DecisionTreeClassifier()
 classifier = classifier.fit(X,y)
 
 predict = classifier.predict([[200,100,50]])
-print(predict)
+print(predict) 
+
+# Prints ['male']
